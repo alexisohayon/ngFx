@@ -7,8 +7,8 @@ var gulp    = require('gulp'),
 
 var paths = {
   scripts: [
-    './bower_components/gsap/src/uncompressed/TweenMax.js',
-    './bower_components/angular-animate/angular-animate.js',
+    //'./bower_components/gsap/src/uncompressed/TweenMax.js',
+    //'./bower_components/angular-animate/angular-animate.js',
     './src/animationsAssist.js',
     './src/animationClass.js',
     './src/animations/*.js',
