@@ -1,9 +1,9 @@
 ng-Fx    [![Build Status](https://travis-ci.org/Hendrixer/ngFx.svg?branch=master)](https://travis-ci.org/Hendrixer/ng-Fx)   <img src="http://img.shields.io/badge/Built%20with-Gulp-red.svg" />
 ===============
 
-### A simple way to add beautiful animations to your angular apps. Animations based off [animate.css](http://daneden.github.io/animate.css/). All animations are built in JavaScript.
-
-#### ng-Fx does not rely on CSS for animations. This allows it to be dynamic and able to adjust on the fly. The only predefined CSS classes are the animations and the easings. ngAnimate allows ngFx to create JavaScript based animations, so the classes do not correspond to a style in a CSS file.
+### This is fork of Hendrixer's ngFx module (https://github.com/Hendrixer/ngFx)
+#### I forked from it's original repo to make a light version of ngFx, that doesn't include TweenMax and ngAnimate.
+#### I prefer to include them separately.
 
 ## Interactive Demo
 Preview the goodness at [hendrixer.github.io](https://hendrixer.github.io/).
@@ -12,7 +12,7 @@ Preview the goodness at [hendrixer.github.io](https://hendrixer.github.io/).
 + Angular.js (1.2+)
 
 ## Downloading
-1. The best way to install ng-Fx is to use bower
+1. The best way to install ng-Fx is to use bower (this is a light version of ngFx, so you'll need to include angular-animate and TweenMax manually, or from bower).
     + ```bower install ngFx --save```
 2. Or, from this repo
   + you'll need the main file in ```dist/ngFx.js```
